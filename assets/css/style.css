@@ -1,0 +1,268 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+        
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+
+}
+ul,
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 992px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.container h1{
+    padding-left: 10px;
+}
+.container p{
+    font-size: 16px;
+    padding: 10px;
+
+}
+.list{
+    padding-left: 50px;
+}
+
+.list li{
+    list-style: circle;
+    
+}
+html,body {
+    height: 100%;
+}
+  
+body{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    width: 100%;
+    max-height: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header__logo{
+    float: left;
+    padding: 0px 0px 0px 10px;
+}
+
+.header__logo2{
+    float: right;
+    padding: 2px 10px 0px 0px;
+}
+
+.header__text{
+    float: none;
+    margin: 0px;
+    padding: 0px 0px 0px 150px;
+    line-height: 46px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 46px;
+    color: white;
+    font-weight: 900;
+}
+.header__top{
+    background-color: #1c8adb;
+    height: 57px;
+
+}
+
+.menu li{
+    display: inline-block;
+    padding-left: 80px;
+}
+
+.header__content-inner{
+    
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    height: 60px;
+}
+.menu a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: black;
+    line-height: 40px;
+    border: 1px solid transparent;
+    transition: all 0.5s;
+    text-align: center;
+    padding: 0 15px;
+    
+    
+}
+
+.menu a:hover{
+    border-color: #db6d1c;
+}
+
+.menu li + li{
+    padding-left: 45px;
+}
+
+.main{
+    width: 100%;
+    background: url("../img/fon19.png") center
+    no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    padding-top: 32px;
+    padding-bottom: 10px;
+}
+
+.border_1{
+    margin: 0 auto;
+    background: white; 
+    padding: 10px; 
+    border-radius: 15px; 
+    background: linear-gradient(45deg, #ffb70f, #fffd0f);
+    width: 900px;
+    min-height: 250px;
+}
+
+.boarder_1logo{
+    float: right;
+    padding-top: 20px;
+    padding-right: 20px;
+
+}
+
+
+
+.border_3{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.b_3{
+    height: 280px;
+    width: 250px; 
+    background: linear-gradient(45deg, #ffb70f, #fffd0f);
+    margin: 0 auto;
+    border-radius: 15px;
+    display:table-cell;
+    vertical-align:bottom;
+}
+
+.logot{
+    padding-left: 70px;
+    padding-top: 40px;
+    
+}
+
+.logog{
+    padding-left: 70px;
+    padding-top: 40px;
+}
+
+.logor{
+    padding-left: 70px;
+    padding-top: 40px;
+}
+
+
+.teor a{
+    font-family: 'Play', sans-serif;
+    font-weight: 600;
+    font-size: 31px;
+    color: black;
+    line-height: 40px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    padding-left: 73px;
+    padding-right: 66px;
+    padding-top: 10px;
+    transition: all 0.5s;
+}
+
+.teor a:hover{
+    border-color: #1c8adb;
+}
+
+.gam a{
+    font-family: 'Play', sans-serif;
+    font-weight: 600;
+    font-size: 31px;
+    color: black;
+    line-height: 40px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    padding-left: 74px;
+    padding-right: 70px;
+    padding-top: 10px;
+    transition: all 0.5s;
+}
+
+.gam a:hover{
+    border-color: #1c8adb;
+}
+
+
+.res a{
+    font-family: 'Play', sans-serif;
+    font-weight: 600;
+    font-size: 31px;
+    color: black;
+    line-height: 40px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    padding-left: 41px;
+    padding-right: 30px;
+    padding-top: 10px;
+    transition: all 0.5s;
+}
+
+.res a:hover{
+    border-color: #1c8adb;
+}
+
+.footer__content{
+    background-color: #1c8adb;
+    width: 100%;
+    height: 70px;
+    display: inline-block;
+}
+
+.footer__content a{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    
+    padding-top: 15px;
+    padding-left: 15px;
+    float: left;
+}
+
+.footer_ct{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+  
+    text-align: right;
+    padding-right: 100px;
+}
+
+.footer__copy{
+    background-color: gray;
+    height: 30px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    padding-top: 5px;
+}
